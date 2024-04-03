@@ -1,0 +1,17 @@
+{
+  "name": "wasm-for-js-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Keisuke Ikeda",
+  "license": "ISC",
+  "engines": {
+    "node": "20.11.1",
+    "pnpm": "8.15.5"
+  },
+  "scripts": {
+    "compile": "wat2wasm ./src/**/*.wat"
+  },
+  "dependencies": {
+    "wat-wasm": "^1.0.43"
+  }
+}
